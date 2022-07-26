@@ -79,7 +79,7 @@ body {
 
 /* Ini adalah CSS untuk masukkan konten (contoh di halaman About) */
 .konten-irpanramdani {
-  width: 800px;
+  width: 600px;
   padding: 30px;
   border-radius: 10px;
   background: #fff;
@@ -96,7 +96,7 @@ body {
 /* Ini Ketika Konten Di HP */
 @media screen and (max-width: 460px) {
   .konten-irpanramdani {
-    width: 400px;
+    width:100%;
     margin: 25px auto;
   }
   .konten-irpanramdani img {
