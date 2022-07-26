@@ -79,7 +79,7 @@ body {
 
 /* Ini adalah CSS untuk masukkan konten (contoh di halaman About) */
 .konten-irpanramdani {
-  width: 800px;
+  width: 100%;
   padding: 30px;
   border-radius: 10px;
   background: #fff;
@@ -241,7 +241,7 @@ input[type="text"] {
 }
 input[type="email"] {
   height: 30px;
-  width: 500px;
+  width: 100%;
   border: 1px solid black;
   border-radius: 10px;
 }
