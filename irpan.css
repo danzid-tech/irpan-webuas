@@ -93,16 +93,7 @@ body {
 .konten-irpanramdani img {
   width: 60%;
 }
-/* Ini Ketika Konten Di HP */
-@media screen and (max-width: 460px) {
-  .konten-irpanramdani {
-    width:100%;
-    margin: 25px auto;
-  }
-  .konten-irpanramdani img {
-    width: 300px;
-  }
-}
+
 
 . .nav-irpanramdani .menu a {
   padding: 10px 0;
