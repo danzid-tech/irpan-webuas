@@ -79,7 +79,7 @@ body {
 
 /* Ini adalah CSS untuk masukkan konten (contoh di halaman About) */
 .konten-irpanramdani {
-  width: 100%;
+  width: 800px;
   padding: 30px;
   border-radius: 10px;
   background: #fff;
