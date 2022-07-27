@@ -22,7 +22,7 @@
           pekerjaan = $("#kerja").val();
 
           nomor++;
-          $("#listdata").append("<tr><td>" + nomor + "</td><td>" + npm + "</td><td>" + nama + "</td><td>" + alamat + "</td></tr>");
+          $("#listdata").append(" <tr align="center"><td>" + nomor + "</td><td>" + npm + "</td><td>" + nama + "</td><td>" + alamat + "</td></tr>");
         });
 
         $("#btnhilang").click(function () {
@@ -71,36 +71,36 @@
       <main class="content">
         
           <div class="konten-irpanramdani">
-            <h1>Form Pemesanan</h1>
+           <center> <h1>Form Pemesanan</h1></center>
 
             <table id="formdata" align="center" width="100%">
-              <tr>
+              <tr align="center">
                 <td>Buku</td>
                 <td width="300"><input type="text" id="nik" /></td>
               </tr>
-              <tr>
+               <tr align="center">
                 <td>Nama Lengkap</td>
                 <td><input type="text" id="nama" /></td>
               </tr>
 
-              <tr>
+               <tr align="center">
                 <td>Alamat</td>
                 <td><input type="text" id="alamat" /></td>
               </tr>
 
-              <tr>
+               <tr align="center">
                 <td></td>
                 <td>
                   <br />
-                  <button id="btn1" class="tombol tombol-lengkap">Baru</button><br />
+                  <button id="btn1" styke="width:130px;height:20px"class="tombol tombol-lengkap">Baru</button><br />
                   <button id="btn2" class="tombol tombol-lengkap">Simpan Pesanan</button>
                 </td>
               </tr>
             </table>
             <br /><br /><br />
 
-            <table id="listdata" align="center" style="max-width: 900" cellspacing="0px" cellpadding="5px" border="1px">
-              <tr>
+            <table align="center"id="listdata" align="center" style="max-width: 900" cellspacing="0px" cellpadding="5px" border="1px">
+               <tr align="center">
                 <th th width="40px">NO</th>
                 <th th width="40px" id="btnhilang">Buku Yang Dipesan</th>
                 <th width="160px">Nama Lengkap</th>
